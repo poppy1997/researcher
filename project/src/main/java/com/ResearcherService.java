@@ -21,6 +21,6 @@ public class ResearcherService
 @Produces(MediaType.TEXT_HTML) 
 public String readItems() 
  { 
- return "done!"; 
+ return itemObj.readItems(); 
  } 
 }
